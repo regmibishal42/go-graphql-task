@@ -1,0 +1,6 @@
+
+2023/02/04 16:16:40 [32m/home/bishalregmi/Desktop/go/go-graphql-jwt/migration/migration.go:11
+[0m[33m[2.758ms] [34;1m[rows:1][0m SELECT count(*) FROM information_schema.tables WHERE table_schema = CURRENT_SCHEMA() AND table_name = 'users' AND table_type = 'BASE TABLE'
+
+2023/02/04 16:16:41 [32m/home/bishalregmi/Desktop/go/go-graphql-jwt/migration/migration.go:11
+[0m[33m[33.168ms] [34;1m[rows:0][0m CREATE TABLE "users" ("id" varchar(255),"name" varchar(100) NOT NULL,"email" varchar(100) NOT NULL,"password" varchar(100) NOT NULL,PRIMARY KEY ("id"))
